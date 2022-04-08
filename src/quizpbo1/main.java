@@ -47,7 +47,7 @@ public class main {
             System.out.print("Input Name : ");
             name = input.next();
             
-            while(choice == 1){
+            do{
                 System.out.print("Input Writing Exam Score : ");
                 write = input.nextInt();
                 System.out.print("Input Coding Test Score : ");
